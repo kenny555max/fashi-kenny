@@ -976,7 +976,7 @@ body{
         font-size: 20px;
     }
 }
-@media (max-width: 280px) {
+@media (max-width: 375px) {
     .count-down .card .card-body table tr td{
         font-size: 12px;
     }
@@ -1649,12 +1649,23 @@ body{
         height: 500px;
     }
     .image-sidebar .img .small-content .bottom{
-        left: 35%;
+        left: 35% !important;
     }
 }
 @media (max-width: 393px) {
     .image-sidebar .img .small-content .bottom{
         left: 25%;
+    }
+}
+@media (max-width: 355px) {
+    .image-sidebar .img .small-content .bottom{
+        left: 15% !important;
+        display: none;
+    }
+}
+@media (max-width: 447px) {
+    .image-sidebar .img .small-content .bottom{
+        left: 28% !important;
     }
 }
 @media (max-width: 311px) {
