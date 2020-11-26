@@ -10,6 +10,10 @@ body{
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
 .loader{
     width: 50px;
@@ -203,7 +207,6 @@ body{
 }
 .Top-Down .toggle-menu span{
     position: absolute;
-    z-index: 9999999999999999;
     background-color: orange;
     color: #ffffff;
     font-size: 15px;
